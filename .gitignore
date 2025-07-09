@@ -1,0 +1,19 @@
+# C++ build files
+*.out
+*.o
+*.exe
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# System-generated files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log

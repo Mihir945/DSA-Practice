@@ -59,3 +59,33 @@ DSA-Practice/
 ├── StudyMaterial/ ← Notes, Cheat Sheets (upcoming)
 └── README.md
 
+---
+
+## 🏆 Topics To Be Covered
+
+- ✅ Arrays  
+- ✅ Linked Lists  
+- ✅ Stacks & Queues  
+- ✅ Trees & Binary Search Trees  
+- ✅ Graphs (DFS, BFS, Topo Sort...)  
+- ✅ Recursion & Backtracking  
+- ✅ Sorting & Searching Algorithms  
+- ✅ Dynamic Programming  
+- ✅ Hashing, Heaps & Priority Queues  
+- 🔄 Greedy, Sliding Window, Two Pointers  
+- 📌 Important Patterns & Problem Sets  
+
+---
+
+## 📁 Problem Solutions
+
+Each problem folder includes:
+- 📄 Problem Statement
+- ✏️ Explanation / Approach
+- 🧠 Complexity Analysis
+- 💻 C++ Code
+- ✅ Test Cases / Edge Cases
+
+Explore the `Problems/` folders inside each topic to dive into actual solutions!
+
+---
