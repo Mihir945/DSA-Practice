@@ -28,7 +28,7 @@ I created this repo as a way to stay consistent, track improvements, and help ot
 ---
 
 ## 📂 Folder Structure
-
+<pre>
 DSA-Practice/
 ├── Arrays/
 │ ├── Algos/
