@@ -34,7 +34,29 @@ class Solution{
 
     void merge(int arr[],int start,int mid,int end)
     {
-        int *ans
+        int *ans=new int[end-start+1];
+        int first=start,second=mid+1,pos=0;
+
+        while(first<=mid &&second<=end)
+        {
+            if(arr[first]<=arr[second])
+             ans[pos++]=arr[first++];
+            else
+             ans[pos++]=arr[second++]; 
+        }
+
+        while(first<=mid)
+          ans[pos++]=arr[first++];
+        while(second<=end)
+          ans[pos++]=arr[second++];
+      
+          pos=0; 
+          for(int i=start;i<end; i++)
+             arr[i]=ans[pos++];
+
+          delete[]ans;   
+
+
     }
     void mergesort(int arr[],int start, int end){
         if(start>=end)
@@ -45,7 +67,7 @@ class Solution{
         mergesort(arr,mid+1,end);
         merge(arr,start,mid,end);
     }
-}
+};
 
 int main()
 {
@@ -53,7 +75,7 @@ int main()
    int n= sizeof(arr)/sizeof(arr[0]);
 
    Solution obj;
-   obj.mergeSort(arr,0,n-1);
+   obj.mergesort(arr,0,n-1);
 
    cout<<"Sorted Array: ";
    for(int i=0;i<n;i++)
